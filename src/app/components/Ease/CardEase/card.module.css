@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+.card__subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--green);
+}
+
+.card__description {
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--white);
+}

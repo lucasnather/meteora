@@ -1,0 +1,17 @@
+.container-ease {
+    padding: 40px 0;
+    background-color: var(--black);
+}
+
+.subtitle {
+    text-align: center;
+
+    color: var(--white);
+}
+
+.container-ease__cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}

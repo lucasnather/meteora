@@ -1,0 +1,14 @@
+.subtitle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 32px;
+
+    color: var(--black-500);
+}
+
+.container__card {
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    gap: 30px;
+}
