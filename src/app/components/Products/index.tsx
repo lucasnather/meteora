@@ -18,6 +18,8 @@ export const Products = () => {
                                 description={produto.descricao}
                                 price={produto.preco}
                                 subtitle={produto.nome}
+                                size={produto.tamanho}
+                                colors={produto.cores}
                             />
                         )
                     })

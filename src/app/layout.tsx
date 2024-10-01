@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from 'next/font/google'
+import '@radix-ui/themes/styles.css';
 import "./globals.css";
+import { Theme } from "@radix-ui/themes";
 
 
 export const metadata: Metadata = {
@@ -22,7 +24,9 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        {children}
+        <Theme>
+          {children}
+        </Theme>
       </body>
     </html>
   );
